@@ -21,15 +21,16 @@ on:
         required: false
         default: ''
       image_index:
-        description: 'Windows image index (1=Home, 4=Education, 6=Pro, 7=Pro N)'
+        description: 'Windows image index (1=Home, 4=Education, 3=Pro, 7=Pro N)'
         required: true
         default: '1'
         type: choice
         options:
           - '1'
           - '4'
-          - '6'
           - '3'
+          
+         
       language:
         description: 'Language (e.g., English, Spanish, French)'
         required: false
